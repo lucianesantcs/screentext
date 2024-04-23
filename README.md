@@ -1,6 +1,5 @@
 
 ![image](https://raw.githubusercontent.com/lucianesantcs/screentext/main/public/demo/mockup.png) 
-
 # ⌨️ screentext
 
  Aplicativo Desktop com intuito de escrever notas de forma rápida para uso em Lives e Tutoriais de videos.
@@ -21,6 +20,7 @@
 
 ## :desktop_computer: Executar o projeto
 ### Dependências 
+- NodeJS v18.17.1 e NPM 9.6.7
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
   - Dependência <i>Desenvolvimento da área de trabalho com C++</i> do Rust, [tutorial de instalação da dependência](https://learn.microsoft.com/pt-br/cpp/build/vscpp-step-0-installation?view=msvc-170).
 - [Rust](https://www.rust-lang.org/learn/get-started)
@@ -31,6 +31,8 @@
  ```
     git clone https://github.com/lucianesantcs/screentext.git
 ```
+- Na pasta raiz, execute o comando `npm install` para <strong>instalar as dependências</strong> do projeto
+- Na pasta raiz, execute o comando `npm run tauri` para <strong>executar</strong> o projeto
 
 <br />
 
