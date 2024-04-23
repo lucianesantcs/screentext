@@ -20,7 +20,8 @@
 
 ## :desktop_computer: Executar o projeto
 ### Dependências 
-- NodeJS v18.17.1 e NPM 9.6.7
+- [NodeJS](https://nodejs.org/en) v18.17.1 e NPM 9.6.7
+  - [Download versões anteriores](https://nodejs.org/en/about/previous-releases)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
   - Dependência <i>Desenvolvimento da área de trabalho com C++</i> do Rust, [tutorial de instalação da dependência](https://learn.microsoft.com/pt-br/cpp/build/vscpp-step-0-installation?view=msvc-170).
 - [Rust](https://www.rust-lang.org/learn/get-started)
