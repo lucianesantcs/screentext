@@ -7,14 +7,14 @@
 <br />
 
 ## :hammer_and_pick: Techs
-- Tauri com ReacJS e Rust
+- Tauri e Rust com ReacJS
 
  <br />
 
 ## :construction: Desenvolvimento (Em progresso):
 - [ ] Adicionar Hotkeys para fechar com tecla ESC
 - [ ] Abrir aplicativo com Hotkey personalizada
-- [ ] Usar tamanho dinâmico de acordo com tamanho do texto digitado
+- [ ] Usar tamanho dinâmico da janela de acordo com tamanho do texto digitado
 
 <br />
 
