@@ -15,13 +15,26 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": false,
+        "close": true,
+        "hide": true,
+        "show": false,
+        "maximize": false,
+        "minimize": false,
+        "unmaximize": false,
+        "unminimize": false,
+        "startDragging": true
       }
     },
     "windows": [
       {
-        "title": "screentext",
-        "width": 800,
-        "height": 600
+        "title": "",
+        "width": 600,
+        "height": 128,
+        "hiddenTitle": true,
+        "decorations": false
       }
     ],
     "security": {

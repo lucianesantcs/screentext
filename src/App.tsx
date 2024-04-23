@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/tauri";
 import "./App.css";
 
@@ -13,7 +12,9 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <>
+      <div data-tauri-drag-region className="titlebar"></div>
+
       <form
         className="row"
         onSubmit={(e) => {
@@ -21,16 +22,15 @@ function App() {
           greet();
         }}
       >
-        <input
+        <textarea
           id="greet-input"
           onChange={(e) => setName(e.currentTarget.value)}
-          placeholder="Enter a name..."
+          placeholder="..."
         />
-        <button type="submit">Greet</button>
       </form>
 
       <p>{greetMsg}</p>
-    </div>
+    </>
   );
 }
 
