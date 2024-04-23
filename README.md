@@ -19,7 +19,7 @@
 <br />
 
 ## :desktop_computer: Executar o projeto
-### Dependências 
+### Instale as dependências 
 - [NodeJS](https://nodejs.org/en) v18.17.1 e NPM 9.6.7
   - [Download versões anteriores](https://nodejs.org/en/about/previous-releases)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
@@ -28,12 +28,18 @@
   - Verifique instalação Rust com comando `rustc --version`, output semelhante à: `rustc 1.77.2 (25ef9e3d8 2024-04-09)`
   - Verifique instalação Cargo (Pacote de dependência do Rust) com comando `cargo --version`, output semelhante à: `cargo 1.77.2 (e52e36006 2024-03-26)`
 
-### Clone o projeto
+### Clonar o projeto pelo terminal
  ```
     git clone https://github.com/lucianesantcs/screentext.git
 ```
-- Na pasta raiz, execute o comando `npm install` para <strong>instalar as dependências</strong> do projeto
-- Na pasta raiz, execute o comando `npm run tauri` para <strong>executar</strong> o projeto
+
+### Executar o projeto
+- Na pasta raiz execute o comando `npm install` para <strong>instalar as dependências Front-End</strong> do projeto
+- Na pasta raiz execute o comando `npm run tauri` para <strong>executar</strong> o projeto
+
+### Buildar o aplicativo
+- Na pasta raiz execute o comando `npm run tauri build`
+O executável encontra-se na pasta `src-tauri\target\release` com nome `screentext.exe`
 
 <br />
 
