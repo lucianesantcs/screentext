@@ -35,7 +35,7 @@
 
 ### Executar o projeto
 - Na pasta raiz execute o comando `npm install` para <strong>instalar as dependências Front-End</strong> do projeto
-- Na pasta raiz execute o comando `npm run tauri` para <strong>executar</strong> o projeto
+- Na pasta raiz execute o comando `npm run tauri dev` para <strong>executar</strong> o projeto
 
 ### Buildar o aplicativo
 - Na pasta raiz execute o comando `npm run tauri build`
